@@ -38,6 +38,7 @@ if (results[0].label == "up"){
 function keyPressed(){
 if(key ==  " "){
 player.jump();
+  console.log("up");
  }
 }
 
