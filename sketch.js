@@ -50,7 +50,7 @@ function draw()
     player.show();
     player.move();
 
-    if(random(3) < 0.01){
+    if(random(1) < 0.01){
       obstcles.push(new Obstcle());
     }
 
