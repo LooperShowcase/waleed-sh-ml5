@@ -10,7 +10,7 @@ bgImg = loadImage("background.png")
 pgImg = loadImage("player.png")
 oImg = loadImage("obstcle.png")
 let options = {
-  probabilityThresholdL :0.85,
+  probabilityThresholdL :0.95,
   };
   wordClassifier=ml5.soundClassifier("SpeechCommands18w",options)
 
